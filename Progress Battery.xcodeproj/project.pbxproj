@@ -10,9 +10,22 @@
 		FB87B62D2CD385A4008BDEF7 /* Progress Battery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Progress Battery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FB87B64A2CD38659008BDEF7 /* Exceptions for "Progress Battery" folder in "Progress Battery" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Progress-Battery-Info.plist",
+			);
+			target = FB87B62C2CD385A4008BDEF7 /* Progress Battery */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		FB87B62F2CD385A4008BDEF7 /* Progress Battery */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FB87B64A2CD38659008BDEF7 /* Exceptions for "Progress Battery" folder in "Progress Battery" target */,
+			);
 			path = "Progress Battery";
 			sourceTree = "<group>";
 		};
@@ -257,6 +270,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Progress-Battery-Info.plist";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -284,6 +299,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Progress-Battery-Info.plist";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

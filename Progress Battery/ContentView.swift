@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Progress Battery
+//  MacAppDemo
 //
-//  Created by Noah Vandenberg on 2024-10-31.
+//  Created by Noah Vandenberg on 2024-10-29.
 //
 
 import SwiftUI

@@ -1,17 +1,12 @@
-//
-//  Progress_BatteryApp.swift
-//  Progress Battery
-//
-//  Created by Noah Vandenberg on 2024-10-31.
-//
-
 import SwiftUI
 
 @main
 struct Progress_BatteryApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Settings {
+            EmptyView() // This can be replaced with your settings view if needed.
         }
     }
 }
